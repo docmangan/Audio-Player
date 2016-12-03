@@ -77,8 +77,8 @@
                                     <action selector="Next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0j6-ZL-xgi"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="tVU-Zr-AcY">
-                                <rect key="frame" x="68" y="629" width="284" height="27"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="tVU-Zr-AcY">
+                                <rect key="frame" x="61" y="607" width="253" height="31"/>
                                 <connections>
                                     <action selector="sliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="6wW-BT-3f6"/>
                                 </connections>
