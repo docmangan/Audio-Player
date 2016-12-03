@@ -11,11 +11,11 @@ import AVFoundation
 
 class ViewController: UIViewController {
     var player = AVAudioPlayer()
-    var randomNumber = 0
+    
     let musicFile = ["lullaby1","lullaby2","lullaby3","lullaby4","lullaby5","lullaby6","lullaby7","lullaby8","lullaby9"]
     
     func changeSong() {
-        randomNumber += 1
+        
         
         }
     
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     
     @IBAction func Next(_ sender: AnyObject) {
       changeSong()
-        print( (randomNumber))
+        
       
         player.play()
     }
